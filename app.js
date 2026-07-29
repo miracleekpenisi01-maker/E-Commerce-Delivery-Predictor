@@ -20,7 +20,7 @@ const state = {
 };
 
 const blockDelayRates = { A: 0.63, B: 0.58, C: 0.71, D: 0.54, F: 0.66 };
-const API_URL = 'http://localhost:8000/predict';
+const API_URL = 'https://e-commerce-delivery-predictor.onrender.com/predict';
 
 // Mapping importance string to numerical values expected by model
 const importanceMap = { low: 1, medium: 2, high: 3 };
